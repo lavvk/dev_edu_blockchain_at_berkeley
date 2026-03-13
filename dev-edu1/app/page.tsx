@@ -122,18 +122,18 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-4xl px-6 py-12">
-        <div className="rounded-3xl bg-white/80 p-8 shadow-lg backdrop-blur text-center">
-          <h2 className="text-3xl font-bold">ok thx</h2>
-
-          <Link
-            href="/about"
-            className="mt-6 inline-block rounded-full bg-purple-500 px-6 py-3 font-semibold text-white hover:bg-purple-600"
-          >
-            click here
-          </Link>
-        </div>
-      </section>
+       <section className="mx-auto max-w-4xl px-6 py-12">
+          <div className="rounded-3xl bg-white/80 p-8 text-center shadow-lg backdrop-blur">
+            <h2 className="text-3xl font-bold text-black">ok thx</h2>
+        
+            <Link
+              href="/about"
+              className="mt-6 inline-block rounded-full bg-purple-500 px-6 py-3 font-semibold text-white hover:bg-purple-600"
+            >
+              click here
+            </Link>
+          </div>
+        </section>
     </main>
   );
 }
